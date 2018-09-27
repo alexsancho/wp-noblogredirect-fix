@@ -1,17 +1,19 @@
 {
-    "name": "alexsancho/wp-noblogredirect-fix",
-    "description": "Fixes bad behaviour with 404 redirect when NOBLOGREDIRECT constant is defined on Multisite installs.",
-    "type": "wordpress-muplugin",
-    "license": "MIT",
-    "authors":[
-        {
-            "name": "Alex Sancho",
-            "homepage": "https://github.com/alexsancho",
-            "role": "developer"
-        }
-    ],
-    "require": {
-        "roave/security-advisories": "dev-master",
-        "composer/installers": "^1.0.0"
+  "name": "alexsancho/wp-noblogredirect-fix",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "description": "Fixes bad behaviour with 404 redirect when NOBLOGREDIRECT constant is defined on Multisite installs.",
+  "authors": [
+    {
+      "name": "Alex Sancho",
+      "homepage": "https://github.com/alexsancho",
+      "role": "developer"
     }
+  ],
+  "require": {
+    "composer/installers": "^v1.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
 }
